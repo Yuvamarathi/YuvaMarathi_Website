@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #FF5A00;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #da4c00;
+}
+a {
+    text-decoration: none;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Marmelad', sans-serif; 
+}
+.title {
+    font-size: 50px;
+}
+.event-card {
+    margin: 2rem;
+    width: 80vw;
+    height: 30%;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.event-card-left {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.event-card-left h2 {
+    font-size: 30px;
+}
+.event-info {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.btn {
+    background: #FFFFFF;
+    border: 2px solid #FF5A00;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 130px;
+    color:#FF5A00;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-btn {
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    background: #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 230px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+@media (max-width:600px) {
+    .event-card {
+        flex-direction: column-reverse;
+        border-radius: 15px;
+    }
+}
