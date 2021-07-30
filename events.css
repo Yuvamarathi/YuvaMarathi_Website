@@ -1,83 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-body::-webkit-scrollbar{
-    width: 7px;
+*,*::before, *::after {
+    box-sizing: border-box;
 }
-body::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-radius: 10px;
+.body {
+    margin: 0;
+    padding: 0;
 }
-body::-webkit-scrollbar-thumb {
-    background: #FF5A00;
-    border-radius: 10px;
+nav {
+    background: linear-gradient(to left, #fe8c00, #f83600);
+    padding: 20px;
+    color:black;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
 }
-body::-webkit-scrollbar-thumb:hover {
-    background: #da4c00;
-}
-a {
+nav i {
     text-decoration: none;
-}
-
-.events {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Marmelad', sans-serif; 
 }
 .title {
-    font-size: 50px;
+    margin-left: 2rem;
+    font-size: 40px;
 }
 .event-card {
-    margin: 2rem;
-    width: 80vw;
-    height: 30%;
-    padding: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.event-card-left {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
-}
-.event-card-left h2 {
-    font-size: 30px;
-}
-.event-info {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Montserrat';
-    font-weight: 300;
-}
-.btn {
-    background: #FFFFFF;
-    border: 2px solid #FF5A00;
-    box-sizing: border-box;
+    width: 45%;
     border-radius: 5px;
-    width: 130px;
-    color:#FF5A00;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px;
 }
+.sub-container {
+    display: flex;
+}
+.event-title {
+    display: flex;
+    align-items: center;
+    
+}
+.event-title h1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
 
-.bottom-btn {
-    display: flex;
-    justify-content:space-around; 
-    align-items: center;
-    background: #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 230px;
-    padding: 10px;
-    color: #FFFFFF;
 }
-@media (max-width:600px) {
-    .event-card {
-        flex-direction: column-reverse;
-        border-radius: 15px;
-    }
+.line {
+    height: 2px;
+    background: black;
+    width: 70px;
 }
