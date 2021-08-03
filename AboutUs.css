@@ -189,6 +189,10 @@ button {
         order: 1;
     }
 
+    .Text button {
+        margin-right: 50vw;
+    }
+
     /*.domains p , .academics p {
         font-size: 16px;
     }*/
