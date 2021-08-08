@@ -33,7 +33,8 @@ nav {
     min-width: 300px;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 0px 20px 0px 20px;
     align-items: center;
 }
 .event-card .event-title {

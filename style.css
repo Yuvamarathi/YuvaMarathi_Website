@@ -48,15 +48,17 @@ body {
 }
 .event-card-left h2 {
     font-size: 30px;
+    margin-bottom: 0;
 }
 .event-info,.info {
     text-decoration: none;
     font-size: 20px;
     font-family: 'Montserrat';
     font-weight: 300;
+
 }
 .info {
-    padding: 20px;
+    padding: 0 15rem 0 15rem;
     
 }
 .btn {
@@ -84,7 +86,7 @@ body {
     color: #FFFFFF;
     margin-bottom: 2rem;
 }
-@media (max-width:600px) {
+@media (max-width:900px) {
     .event-card {
         flex-direction: column-reverse;
         border-radius: 15px;
