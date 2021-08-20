@@ -21,6 +21,7 @@ body {
     padding:0;
     margin: 0;
     font-family: 'Marmelad', sans-serif;
+    align-items: center;
 }
 .events {
     display: flex;
@@ -31,7 +32,7 @@ body {
 .title {
     font-size: 50px;
 }
-.event-card {
+.event-card, .event-card1 {
     margin-bottom: 2rem;
     width: 70vw;
     height: 30%;
@@ -57,9 +58,14 @@ body {
     font-weight: 300;
 
 }
+.event-info a {
+    color: #FF5A00;
+}
+.event-info a:hover {
+    color: #da4c00;
+}
 .info {
     padding: 0 15rem 0 15rem;
-    
 }
 .btn {
     background: #FFFFFF;
@@ -87,12 +93,18 @@ body {
     margin-bottom: 2rem;
 }
 @media (max-width:900px) {
-    .event-card {
+    .event-card, .event-card1 {
         flex-direction: column-reverse;
         border-radius: 15px;
     }
     .event-card img {
         width: 100%;
+    }
+    .event-img {
+        order: 1;
+    }
+    .info {
+        padding: 0 40px 0 40px;
     }
 
 }
