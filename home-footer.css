@@ -68,7 +68,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     width: 40vw;
     height: 100%;
     /* border: 2px solid black; */
@@ -78,22 +78,32 @@ nav a:hover{
     width: 169px;
     height: 169px;
     /* border: 2px solid black; */
-    /* margin-top: ; */
+    margin-left: 9vw;
 }
 .write{
     /* border: 2px solid black; */
-    width: 37vw;
-    font-size:1.9rem;
+    width: 32vw;
     font-family: 'Marmelad', sans-serif;
-    text-align: center;
-    /* margin: -4.8vh; */
     color: black;
-    
+    margin-left: 5vw;
 }
+.write p{
+    font-weight: 500;
+    font-size:1.9rem;
+    margin-top:2.2vh ;
+}
+
 .write h1{
-    margin-bottom: 1vh;
+    /* margin-bottom: 1vh; */
     color: black;
+    font-weight: 400;
+    font-size: 4.75rem;
 }
+.write span{
+    font-size: 1.4875rem;
+    font-weight: 400;
+}
+
 .hm-2{
     display: flex;
     justify-content: center;
@@ -220,11 +230,12 @@ nav a:hover{
 .follow{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     /* border: 2px solid black; */
     width: 40vw;
     height: 100%;
     font-family: 'Marmelad', sans-serif;
+    /* padding-left: 4vw; */
 
 }
 .follow h3{
@@ -232,6 +243,8 @@ nav a:hover{
     font-size: 2.3rem;
     margin-bottom: 2vh;
     margin-top: 20px;
+    margin-left: 5vw;
+    font-weight: 400;
 }
 .follow button{
     font-size: 1.7rem;
@@ -241,7 +254,7 @@ nav a:hover{
     border-radius: 15px;
     margin: 1.1vh;
     background-color: black;
-    color: white;
+    color:floralwhite;
     border: none;
     text-align: left;
     padding-left: 2vw;
@@ -253,9 +266,11 @@ nav a:hover{
     padding-right: 2.5vh;
 }
 .follow-inner{
+   
     display: flex;
     flex-direction: column;
     /* border: 2px solid black; */
+    margin-left: 4vw;
 }
 .flag{
     display: flex;
@@ -386,15 +401,25 @@ nav a:hover{
         height: auto;
     }
     .hm-1{
+        /* margin-left: 0; */
+        align-items: center;
         width: 100%;
         height: auto;
     }
     .hm-1 img{
+        margin-left: 0;
         margin-top: 6.9vh;
     }
     .write{
+        margin-left: 0;
+        text-align: center;
         width: 100%;
-        font-size: 2.4rem;
+    }
+    .write span{
+        font-size: 1.95rem;
+    }
+    .write p{
+        font-size:2.3rem;
     }
     .hm-2{
         width: 100%;
@@ -528,6 +553,8 @@ nav a:hover{
     }
     .write{
         width: 100%;
+    }
+    .write p{
         font-size: 2.2rem;
     }
     .gallery-container{
@@ -551,6 +578,10 @@ nav a:hover{
 
 
 @media (max-height:650px) and (min-width:1010px) {
+    html{
+        font-size: 65%;
+    }
+  
     .gallery-item-2,
     .gallery-item-4 {
       height: 200px;
@@ -576,17 +607,14 @@ nav a:hover{
     margin: 1vh;
     }
     .write{
-       
         width: 37vw;
-        font-size:19px;
-        
-    }
-    .write h1{
-        margin-bottom: 1vh;
     }
 
 }
 @media (max-height:641px) and (min-width:1000px){
+    html{
+        font-size: 57%;
+    }
     
     .gallery-item-2,
     .gallery-item-4 {
@@ -620,6 +648,9 @@ nav a:hover{
 
 }
 @media (max-height:600px) and (min-width:1000px){
+    html{
+        font-size: 53%;
+    }
     
     .gallery-item-2,
     .gallery-item-4 {
@@ -645,7 +676,6 @@ nav a:hover{
     height: 33px;
     border-radius: 15px;
     margin: 1vh;
-    font-size: 17px;
     }
 
     .write h1{
@@ -680,7 +710,6 @@ nav a:hover{
     height: 33px;
     border-radius: 15px;
     margin: 1vh;
-    font-size: 16px;
     }
     .write h1{
         font-size: 32px;
