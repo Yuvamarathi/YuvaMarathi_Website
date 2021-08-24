@@ -16,7 +16,6 @@ nav {
     background: linear-gradient(to left,rgba(254, 140, 0,0.88), #f83600);
     padding: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: saturate(100%) blur(5px);
 }
 .fas {
     color:black;
@@ -33,7 +32,6 @@ nav {
     min-width: 300px;
     height: auto;
     border-radius: 5px;
-    /* padding: 20px; */
     padding: 0px 20px 0px 20px;
     align-items: center;
 }
@@ -45,13 +43,16 @@ nav {
 }
 .sub-container {
     display: flex;
+    align-items: center;
 }
 .event-title {
     display: flex;
     align-items: center;
-    margin: 15px;
 }
-.event-title h1, h2 {
+.event-title h1 {
+    margin: 0;
+}
+.event-title h2 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -66,14 +67,12 @@ nav {
     justify-content: space-evenly;
 }
 @media (max-width: 650px) {
+
     .all-events {
         flex-direction: column;
         align-items: center;
     }
     .sub-container {
         flex-direction: column-reverse;
-    }
-    .event-title {
-        justify-content: center;
     }
 }
