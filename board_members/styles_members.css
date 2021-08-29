@@ -24,7 +24,6 @@ body {
   max-width: 30%;
 }
 
-
 .search_categories {
   padding: 1vh 0 1vh 0vw;
   background: #fff;
@@ -62,7 +61,7 @@ select {
 }
 
 .faculty-head {
-  margin: 6vh 6vw;
+  margin: 10vh 6vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,8 +104,8 @@ select {
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-  margin: 2vh 8vw;
-  row-gap: 5vh;
+  margin: 4vh 8vw;
+  row-gap: 10vh;
 }
 
 .heads-info-container {
@@ -200,6 +199,12 @@ select {
   }
   .search_categories {
     width: 17vh;
+  }
+  .head-subname {
+    font-size: 3vh;
+  }
+  .faculty-subname{
+    font-size: 3vh;
   }
 }
 

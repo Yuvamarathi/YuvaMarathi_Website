@@ -9,10 +9,12 @@ function template(array) {
             `
         <div class="heads-info-container">
             <div class="heads-photo-container">
-                <a href="https://www.google.com/" target="_blank"><img
-                    class="club-head-image"
-                    src="${array[i].Image}"
-                /></a>
+                <a href="" target="_blank">
+                    <img
+                        class="club-head-image"
+                        src="${array[i].Image}"
+                    />
+                </a>
             </div>      
             <div class="heads-info-container">
                 <h3 class="head-name">${array[i].Name}</h3>

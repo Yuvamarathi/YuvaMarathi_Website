@@ -49,7 +49,6 @@ const info_three =
     [
         { "Name": "Shalaka Mahurkar", "Subname": "Vice Chairperson", "Image": "Images\\Board1819\\Shalaka Shashank Mahurkar_Vice President.jpg" },
         { "Name": "Vaishnavi Deshpande", "Subname": "PR Head", "Image": "Images\\Board1819\\Vaishnavi Deshpande__01.jpg" },
-        /* { "Name": "Tanvi Nagrale", "Subname": "--", "Image": "Image 1.jpg" }, */
         { "Name": "Tukaram Jagtap", "Subname": "Chairperson", "Image": "Image 1.jpeg" },
         { "Name": "Vedant Kadam", "Subname": "Management Head", "Image": "Image 1.jpeg" },
         { "Name": "Ashutosh Nandanwar", "Subname": "Design and Marketing Head", "Image": "Image 1.jpeg" },
@@ -70,7 +69,6 @@ const info_four =
         { "Name": "Saurabh Zaware", "Subname": "Treasurer", "Image": "Image 1.jpeg" },
         { "Name": "Utkarsh Ghadge", "Subname": "Design Head", "Image": "Image 1.jpeg" },
         { "Name": "Pranit Amrutkar", "Subname": "Design Sub Head", "Image": "Image 1.jpeg" },
-        /* { "Name": "Priyanka Dani", "Subname": "", "Image": "Image 1.jpeg" }, */
         { "Name": "Chaitanya Inamdar", "Subname": "Events Sub Head", "Image": "Image 1.jpeg" },
         { "Name": "Dhanashri Patil", "Subname": "Technical Head", "Image": "Image 1.jpeg" }
     ];
