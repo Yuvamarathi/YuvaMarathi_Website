@@ -30,6 +30,7 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header></header>
 
@@ -37,15 +38,17 @@
       <section class="members">
         <div class="top">
           <h1 class="heading">Executive Board</h1>
-
-          <div class="drop-down">
-            <select name="heads" id="heads">
-              <option selected value="2021-22">2021-22</option>
-              <option value="2020-21">2020-21</option>
-              <option value="2019-20">2019-20</option>
-              <option value="2018-19">2018-19</option>
-            </select>
-            <!--<img class="fal fa-arrow-down"></img>-->            <!-- <div></div> -->
+          <div class="search_categories">
+            <div class="select">
+              <select id="year" onchange="selector()">
+                <option value="21_22">2021-2022</option>
+                <option value="20_21">2020-2021</option>
+                <option value="19_20">2019-2020</option>
+                <option value="18_19">2018-2019</option>
+                <option value="17_18">2017-2018</option>
+              </select>
+              <!-- <div class="icon"><img class="arrow-down" src="arrow-down-solid.svg"/></div> -->
+            </div>
           </div>
         </div>
 
@@ -62,135 +65,12 @@
             </div>
           </div>
 
-          <div class="club-heads" id="21-22">
-            <!-- HEAD-1 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Anurag Gumaste _ Operations Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Anurag Gumaste</h3>
-                <p class="head-subname">Operations Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-2 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Amogh Hatkar Secretary.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Amogh Hatkar</h3>
-                <p class="head-subname">Secretary</p>
-              </div>
-            </div>
-
-            <!-- HEAD-3 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Anushka Pawar _ Music Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Anushka Pawar</h3>
-                <p class="head-subname">Music Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-4 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Apurv Shewale _ Management Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Apurv Shewale</h3>
-                <p class="head-subname">Management Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-5 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Ishan Jogalekar Design Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Ishan Jogalekar</h3>
-                <p class="head-subname">Design Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-6 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Janhavi Bhosale _ Dance head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Janhavi Bhosale</h3>
-                <p class="head-subname">Dance Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-7 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Krantdarshi Mirajkar_Editorial head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Krantdarshi Mirajkar</h3>
-                <p class="head-subname">Editorial head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-8 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Mrunmayi Mane_Events Head.jpeg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Mrunmayi Mane</h3>
-                <p class="head-subname">Events Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-9 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Piyush Waghirkar Finance Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Piyush Waghirkar</h3>
-                <p class="head-subname">Finance Head</p>
-              </div>
-            </div>
-
-            
-            <!-- HEAD-10 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Tanishq Gandhi Technical Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Tanishq Gandhi</h3>
-                <p class="head-subname">Technical Head</p>
-              </div>
-            </div>
-
-            <!-- HEAD-11 -->
-            <div class="heads-info-container">
-              <div class="heads-photo-container">
-                <img class="club-head-image" src="board_members/Images/Vedant Karale_PR and Drama Head.jpg" />
-              </div>
-              <div class="heads-info-container">
-                <h3 class="head-name">Vedant Karale</h3>
-                <p class="head-subname">PR and Drama Head</p>
-              </div>
-            </div>
-          </div>
-
-
+          <div class="club-heads" id="selected-board"></div>
         </div>
       </section>
     </main>
-
+    <script src="info.js"></script>
+    <script src="js_members.js"></script>
     <footer></footer>
   </body>
 </html>

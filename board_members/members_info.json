@@ -1,0 +1,89 @@
+{
+  "Board2122": [
+    {
+      "Name": "Amogh Hatkar",
+      "Subname": "Secretary",
+      "Image": "Images/Board2122/Amogh Hatkar Secretary.jpg"
+    },
+    {
+      "Name": "Anurag Gumaste",
+      "Subname": "Operations Head",
+      "Image": "Images/Board2122/Anurag Gumaste _ Operations Head.jpg"
+    },
+    {
+      "Name": "Anushka Pawar",
+      "Subname": "Music Head",
+      "Image": "Images/Board2122/Anushka Pawar _ Music Head.jpg"
+    },
+    {
+      "Name": "Apurv Shewale",
+      "Subname": "Management Head",
+      "Image": "Images/Board2122/Apurv Shewale _ Management Head.jpg"
+    },
+    {
+      "Name": "Ishan Jogalekar",
+      "Subname": "Design Head",
+      "Image": "Images/Board2122/Ishan Jogalekar Design Head.jpg"
+    },
+    {
+      "Name": "Janhavi Bhosale",
+      "Subname": "Dance Head",
+      "Image": "Images/Board2122/Janhavi Bhosale _ Dance head.jpg"
+    },
+    {
+      "Name": "Krantdarshi Mirajkar",
+      "Subname": "Editorial",
+      "Image": "Images/Board2122/Krantdarshi Mirajkar_Editorial head.jpg"
+    },
+    {
+      "Name": "Mrunmayi Mane",
+      "Subname": "Events Head",
+      "Image": "Images/Board2122/Mrunmayi Mane_Events Head.jpeg"
+    },
+    {
+      "Name": "Piyush Waghirkar",
+      "Subname": "Finance Head",
+      "Image": "Images/Board2122/Piyush Waghirkar Finance Head.jpg"
+    },
+    {
+      "Name": "Tanishq Gandhi",
+      "Subname": "Technical Head",
+      "Image": "Images/Board2122/Tanishq Gandhi Technical Head.jpg"
+    },
+    {
+      "Name": "Vedant Karale",
+      "Subname": "PR and Drama Head",
+      "Image": "Images/Board2122/Vedant Karale_PR and Drama Head.jpg"
+    }
+  ],
+
+  "Board2021": [
+    {
+      "Name": "Amogh Hatkar",
+      "Subname": "Secretary",
+      "Image": "Images/Amogh Hatkar Secretary.jpg"
+    },
+    {
+      "Name": "Anurag Gumaste",
+      "Subname": "Operations Head",
+      "Image": "Images/Anurag Gumaste _ Operations Head.jpg"
+    },
+    {
+      "Name": "Anushka Pawar",
+      "Subname": "Music Head",
+      "Image": "Images/Anushka Pawar _ Music Head.jpg"
+    },
+    {
+      "Name": "Apurv Shewale",
+      "Subname": "Management Head",
+      "Image": "Images/Apurv Shewale _ Management Head.jpg"
+    },
+    { "Name": "Tony Stark", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" },
+    { "Name": "fhj", "Subname": "Secretary", "Image": "Image 1.jpeg" }
+  ]
+}

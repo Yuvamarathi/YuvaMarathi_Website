@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 3vh;
-  margin: 0vh 3vw;
+  margin: 0vh 4vw;
 }
 
 .heading {
@@ -24,11 +24,36 @@ body {
   max-width: 30%;
 }
 
-#heads {
-  font-family: "Marmelad", sans-serif;
-  border: black solid 1px;
+
+.search_categories {
+  padding: 1vh 0 1vh 0vw;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 81vw;
+  display: -moz-inline-box;
+}
+
+.select select {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  width: 105%;
+  outline: none;
+  -webkit-appearance: none;
+
   font-size: 2.5vh;
-  border-radius: 5px;
+  font-family: "Marmelad", sans-serif;
+}
+.select {
+  background: url("arrow-down-solid.svg") no-repeat right;
+  margin-right: 1.4vw;
+}
+
+select {
+  justify-content: center;
+  text-align: center;
 }
 
 .faculty {
@@ -118,9 +143,22 @@ body {
   font-weight: 800;
   font-size: 2.5vh;
   padding: 0 0;
-  text-align:center;
+  text-align: center;
 }
 
+@media (orientation: portrait), (max-width: 768) {
+  .search_categories {
+    padding: 1vh 1vh 1vh 2vw;
+    width: 17vh;
+  }
+}
+@media (orientation: landscape), (min-width: 769) {
+  .search_categories {
+    padding: 1vh 1vh 1vh 1vw;
+    width: 12vw;
+    max-width: 22vh;
+  }
+}
 @media (max-width: 1024px) {
   .faculty-photo-container {
     height: 12vh;
@@ -137,4 +175,32 @@ body {
     height: 14vh;
     min-height: 50%;
   }
+  select {
+    font-size: 3vh;
+  }
 }
+@media (max-width: 768px) {
+  .faculty-photo-container {
+    height: 10vmax;
+  }
+  .club-heads {
+    margin: 3vh 2vw;
+    row-gap: 6vh;
+    column-gap: 10vw;
+  }
+  .heads-info-container {
+    width: 40%;
+  }
+  .heads-photo-container {
+    height: 12vh;
+    min-height: 50%;
+  }
+  select {
+    font-size: 3vh;
+  }
+  .search_categories {
+    width: 17vh;
+  }
+}
+
+
