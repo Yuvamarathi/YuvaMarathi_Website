@@ -107,7 +107,8 @@ setInterval(automate,4000);
 const a = document.querySelector('.navbar');
 const b = document.getElementById('nav_bar');
 const c = document.getElementById('ul');
-const d= document.querySelector('.arrow')
+const d= document.querySelector('.arrow');
+const z= document.querySelector('.brochure');
 const topOfNav = a.offsetTop;
 function change() {
   if (a.clientWidth<450) {
@@ -127,6 +128,7 @@ function change() {
         c.getElementsByTagName("a")[3].style.color = 'white';
         c.getElementsByTagName("a")[4].style.color = 'white';
         d.style.color='white';
+        z.style.display='none'
     }
     else{
         b.style.backgroundColor = "#f78f20";
@@ -136,6 +138,7 @@ function change() {
         c.getElementsByTagName("a")[3].style.color = 'black';
         c.getElementsByTagName("a")[4].style.color = 'black';
         d.style.color='black';
+        z.style.display='block'
 
     }
 
