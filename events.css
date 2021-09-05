@@ -1,0 +1,83 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+.body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 2rem;
+    backdrop-filter: saturate(100%) blur(5px);
+}
+nav {
+    background: linear-gradient(to left,rgba(254, 140, 0), #f83600);
+    padding: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+nav h1 {
+    margin: 0;
+}
+.fas {
+    color:black;
+}
+.title {
+    margin-left: 2rem;
+    font-size: 40px;
+}
+#gudhipadwa {
+    width: 50%;
+}
+.event-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+}
+.event-card .line {
+    flex: 1;
+}
+.sub-container {
+    display: flex;
+    align-items: center;
+}
+.event-title {
+    display: flex;
+    align-items: center;
+}
+.event-title h1 {
+    margin: 0;
+}
+.event-title h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.line {
+    height: 2px;
+    background: black;
+    width: 100%;
+}
+.all-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 650px) {
+
+    .all-events {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-container {
+        flex-direction: column-reverse;
+    }
+}
