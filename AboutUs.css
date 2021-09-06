@@ -1,6 +1,11 @@
 /* CSS STYLES */
 
 
+.Image img {
+    width: 650px;
+    height: 350px;
+}
+
 h1 {
     text-align : center;
     font-family: 'Marmelad', sans-serif;
@@ -9,8 +14,8 @@ h1 {
 }
 
 .title {
-    padding-top : 10vh ;
-    padding-left : 5vw; ;
+    padding-top : 5vh ;
+    padding-left : 5vw; 
     padding-bottom: 10vh ;
     text-align : left ;
 }
@@ -28,18 +33,23 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 500;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     text-align: left;
 }
 
-.Text button {
+.Button button {
     margin-top: 10px;
     background-color: #FF5A00;
     width: 228px;
     height: 38px;
     border-radius: 8px;
-    margin-left: 18%;
+    /* margin-left: 18%; */
     margin-bottom: 30px;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -49,11 +59,15 @@ button {
     justify-self: center;
 }
 
-#second img {
+.Download {
+    text-decoration: none;
+}
+
+.second img {
     float: right;
 }
 
-#second a {
+.second a {
     font-family: 'Monteserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -90,7 +104,7 @@ button {
 .domains img , .academies img{
     height: 50px;
     width: 50px;
-    margin-left: 40%;
+   /* margin-left: 40%;*/
 }
 
 .management,.editorial,.design,.dance,.drama,.music {
@@ -103,6 +117,11 @@ button {
     margin-bottom: 10vh;
 }
 
+.illustration {
+    display: flex;
+    justify-content: center;
+}
+
 /* .management, .technical, .design {
     padding-right: 8px;
 } */
@@ -110,7 +129,10 @@ button {
 
 @media only screen and  (max-width:375px) {
     
-   
+  /*   body {
+        margin-left: 7px;
+    }
+    */
     .domains , .academies {
         flex-direction: column;
         flex-wrap: nowrap;
