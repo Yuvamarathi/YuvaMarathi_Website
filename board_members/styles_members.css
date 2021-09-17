@@ -52,7 +52,7 @@ body {
 
 select {
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .faculty {
