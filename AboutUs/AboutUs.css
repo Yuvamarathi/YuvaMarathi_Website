@@ -1,0 +1,281 @@
+
+                
+               /*   =========================================================
+                                    ABOUT US PAGE  CSS STYLES
+                    ========================================================= 
+                */
+
+.Image img {
+    width: 650px;
+    height: 350px;
+}
+
+h1 {
+    text-align : center;
+    font-family: 'Marmelad', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.title {
+    padding-top : 5vh ;
+    padding-left : 5vw; 
+    padding-bottom: 10vh ;
+    text-align : left ;
+}
+
+.aboutUs {
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.Text p {
+    width: 587px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    /* margin-right: 50px; */
+    text-align: left;
+}
+
+.Button button {
+    margin-top: 10px;
+    background-color: #FF5A00;
+    width: 228px;
+    height: 38px;
+    border-radius: 8px;
+    /* margin-left: 18%; */
+    margin-bottom: 30px;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Marmelad', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    justify-self: center;
+}
+
+.Download {
+    text-decoration: none;
+}
+
+.second img {
+    float: right;
+}
+
+.second a {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.domains , .academies {
+    display : flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.domains h1 , .academies h1 {
+    font-family: 'Marmelad', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10vh;
+}
+
+.domains h2 , .academies h2 {
+    font-family: 'Marmelad', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.domains p , .academies p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.domains img , .academies img{
+    height: 50px;
+    width: 50px;
+   /* margin-left: 40%;*/
+}
+
+.management,.editorial,.design,.dance,.drama,.music {
+    flex: 0 0 25vw;
+    margin-bottom: 10vh;
+}
+
+.technical,.documentation {
+    flex: 0 0 40vw;
+    margin-bottom: 10vh;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+}
+
+/* .management, .technical, .design {
+    padding-right: 8px;
+} */
+
+
+/*              ====================================================
+                                    MOBILE VIEW
+                ====================================================
+ */
+
+@media only screen and  (max-width:375px) {
+    
+  /*   body {
+        margin-left: 7px;
+    }
+    */
+    .domains , .academies {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .aboutUs {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .Image {
+        order: 0;
+        padding-bottom: 20px;
+    }
+
+    .Text {
+        order: 1;
+    }
+
+    .Image img {
+        width: 245px;
+        height: 184px;
+    }
+
+    .Text p {
+        text-align: center;
+        font-size: 16px;
+        width: auto;
+        margin-left: 10vw;
+    }
+
+    .domains p, .academies p {
+        font-size: 16px;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    /* .Text button {
+        margin-right: 50vw;
+    }
+ */
+
+/* 
+@media(min-width : 375px) and (max-width : 1141px) {
+
+    .aboutUs {
+        display : flex;
+        flex-direction: column;
+        justify-content : flex-start;
+    }
+    .Image {
+        align-self: center;
+    }
+
+    #first p {
+        text-align: center;
+        font-size: auto;
+        width: auto;
+        height: auto;
+    }
+
+    #second {
+        justify-content: center;
+    }
+}
+ */
+
+/*                  =========================================================
+                                    ABOUT US PAGE  FONT STYLES
+                    ========================================================= 
+*/
+
+/* ABOUT US
+font-family: Marmelad;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+Text inside it
+font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+Button
+font-family: Maiandra GD;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+DOMAINS
+font-family: Marmelad;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+Domain Names
+font-family: Marmelad;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+Domain Description
+font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+ */}
+
+
+                /*  ==============================================
+                                        END
+                    ============================================== */          
