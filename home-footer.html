@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d4062380cc.js"></script>
+    <link rel="stylesheet" href="styles_members.css" />
+    <link rel="stylesheet" href="home-footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200&display=swap" rel="stylesheet" />
+    <!-- <script src="csi.min.js"></script>    -->
+    <title>Yuva Marathi</title>
+</head>
+
+<body>
+
+
+    <div class="navbar" id="nav_bar">
+        <nav>
+            <button class="arrow" id="_arrow">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-ul" id="ul">
+                <li class="nav-li">
+                    <button class="active nav_btn">
+                        <a href="#move_to_home">Home</a>
+                    </button>
+                </li>
+                <li class="nav-li">
+                    <button class="nav_btn ">
+                        <a href="#move_to_events">Events</a>
+                    </button>
+                </li>
+
+                <li class="nav-li"><button class="nav_btn">
+                        <a href="gallery.html">Gallery</a>
+                    </button>
+                </li>
+
+                <li><button class="nav_btn">
+                        <a href="#move_to_about">About Us</a>
+                    </button>
+                </li>
+
+                <li class="nav-li"><button class="nav_btn">
+                        <a href="#move_to_touch">Get in touch</a>
+                    </button>
+                </li>
+
+                <li>
+                    <div class="brochure">
+                        <button>
+                            <a href="./Brochure.pdf" download="Yuva Marathi Brochure 2021-22">Brochure
+                                <img src="./images/Vector.png" alt="">
+
+                            </a>
+                        </button>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="home" id="move_to_home">
+        <div class="home-1">
+            <div class="hm-1">
+                <img src="Images/Home_Img.png" alt="">
+                <div class="write">
+                    <h1>Yuva Marathi</h1>
+                    <span class="title__below">Marathi Literary Association</span><br>
+                    <p class="write__below">
+                        Yuva Marathi (Marathi Literary Association) is a Literary
+                        and Cultural Club at Vellore Institute of Technology in Tamil Nadu.
+                    </p>
+                </div>
+            </div>
+            <div class="hm-2">
+                <div class="gallery-container">
+                    <img class="gallery-item gallery-item-1" src="Images/Image1.JPG" data-index="1">
+                    <img class="gallery-item gallery-item-2" src="Images/Image2.JPG" data-index="2">
+                    <img class="gallery-item gallery-item-3" src="Images/Image3.JPG" data-index="3">
+                    <img class="gallery-item gallery-item-4" src="Images/Image4.jpg" data-index="4">
+                    <img class="gallery-item gallery-item-5" src="Images/Image5.JPG" data-index="5">
+                    <img class="gallery-item gallery-item-7" src="Images/Image6.JPG" data-index="5">
+                    <img class="gallery-item gallery-item-7" src="Images/Image7.JPG" data-index="5">
+                </div>
+                <div class="gallery-controls"></div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+        <div class="home-2">
+            <div class="follow">
+                <h3>Follow us on</h3>
+                <div class="follow-inner">
+                    <a href="" target="_blank"><button><i class="fa fa-instagram fa-lg" aria-hidden="true"></i><span>
+                                Instagram</span></button></a>
+                    <a href="https://www.youtube.com/channel/UCYBsDWAsZITCZGz7krKJhQQ" target="_blank"><button><i
+                                class="fa fa-youtube-play fa-lg"
+                                aria-hidden="true"></i><span>Youtube</span></button></a>
+                    <a href="https://in.linkedin.com/company/yuva-marathi" target="_blank"><button><i
+                                class="fa fa-linkedin-square fa-lg"
+                                aria-hidden="true"></i><span>LinkedIn</span></button></a>
+                    <a href="https://www.facebook.com/YuvaMarathiYM/" target="_blank"><button><i
+                                class="fa fa-facebook-official fa-lg"
+                                aria-hidden="true"></i><span>Facebook</span></button></a>
+                </div>
+            </div>
+            <div class="flag">
+                <img src="Images/flag.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Events page -->
+    <div id="move_to_events">
+        <div data-include=" events-page.html" id="move_to_events"></div>
+    </div>
+
+    <div id="move_to_about"></div>
+
+
+    <!--About Us page -->
+    <div>
+        <div data-include="AboutUs.html"></div>
+    </div>
+
+
+    <!-- Members page -->
+
+    <section class="members">
+        <div class="top">
+            <h1 class="heading">Executive Board</h1>
+            <div class="search_categories">
+                <div class="select">
+                    <select id="year" onchange="selector()">
+                        <option value="21_22">2021-2022</option>
+                        <option value="20_21">2020-2021</option>
+                        <option value="19_20">2019-2020</option>
+                        <option value="18_19">2018-2019</option>
+                        <option value="17_18">2017-2018</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="faculty">
+                <div class="faculty-head">
+                    <div class="faculty-photo-container">
+                        <img class="faculty-photo" src="Images/bhagat sir.png" />
+                    </div>
+                    <div class="faculty-info-container">
+                        <h3 class="faculty-name">Dr. Pundlik Bhagat</h3>
+                        <p class="faculty-subname">Faculty Coordinator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="club-heads" id="selected-board">
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Mrunmayi Mane_Events Head (2).jpeg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Mrunmayi Mane</h3>
+
+                        <p class="head-subname">Events Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Anurag Gumaste _ Operations Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Anurag Gumaste</h3>
+
+                        <p class="head-subname">Operations Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Apurv Shewale _ Management Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Apurv Shewale</h3>
+
+                        <p class="head-subname">Management Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Amogh Hatkar Secretary.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Amogh Hatkar</h3>
+
+                        <p class="head-subname">Secretary</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Tanishq Gandhi- Technical Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Tanishq Gandhi</h3>
+
+                        <p class="head-subname">Technical Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Ishan Jogalekar Design Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Ishan Jogalekar</h3>
+
+                        <p class="head-subname">Design Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Vedant Karale_PR and Drama Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Vedant Karale</h3>
+
+                        <p class="head-subname">PR and Drama Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Mrunmayi Mane_Events Head (2).jpeg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Mrunmayi Mane</h3>
+
+                        <p class="head-subname">Events Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image"
+                                src="Images/Board2122/Krantdarshi Mirajkar_Editorial head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Krantdarshi Mirajkar</h3>
+
+                        <p class="head-subname">Editorial Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Janhavi Bhosale _ Dance head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Janhavi Bhosale</h3>
+
+                        <p class="head-subname">Dance Head</p>
+                    </div>
+                </div>
+
+
+                <div class="heads-info-container">
+                    <div class="heads-photo-container">
+                        <a href="" target="_blank">
+                            <img class="club-head-image" src="Images/Board2122/Anushka Pawar _ Music Head.jpg" />
+                        </a>
+                    </div>
+                    <div class="heads-info-container">
+                        <h3 class="head-name">Anushka Pawar</h3>
+
+                        <p class="head-subname">Music Head</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Advisory Board -->
+    <div class="adv_board">
+        <a href="AdvisoryBoard.html">
+            <button id="move_to_touch">
+                Advisory Board
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </button>
+        </a>
+    </div>
+
+    <!-- Get in touch -->
+    <div class="get_in_touch" >
+        <h1>Get in Touch</h1>
+        <div class="recruits">
+            <div class="intouch_1">
+                <h2>New recruits ?</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Nibh gravida eget eu praesent.
+                </p>
+
+                <a href="">
+                    <button>
+                        Become a member<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </a>
+
+            </div>
+            <div class="intouch_2">
+                <img src="Images/Rectangle 44_AboutUsPic.svg" alt="Image">
+            </div>
+        </div>
+        <div class="sponsers">
+
+
+            <div class="intouch_1">
+                <h2>Sponser us !</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Nibh gravida eget eu praesent.
+                </p>
+
+                <a href="">
+                    <button>
+                        Get in touch<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </a>
+
+            </div>
+            <div class="intouch_2">
+                <img src="Images/Rectangle 44_AboutUsPic.svg" alt="Image">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="foot-1">
+            <img src="Images/vellore-1.png" alt="Not available">
+        </div>
+        <div class="foot-2">
+            <img src="Images/Footer_logo.svg" alt="Yuva Marathi">
+            <span>Made with ❤️ by YM technical team</span>
+        </div>
+        <div class="foot-3">
+            <div class="follow-foot">
+                <h3>Contact Us</h3>
+                <a href="mailto:someone@yoursite.com" target="_blank"><button><i class="fa fa-envelope"
+                            aria-hidden="true"></i><span>
+                            Email</span></button></a>
+                <a href="https://www.linkedin.com/company/yuva-marathi/about/" target="_blank"><button><i
+                            class="fa fa-linkedin-square fa-lg"
+                            aria-hidden="true"></i><span>LinkedIn</span></button></a>
+                <a href="" target="_blank"><button><i class="fa fa-instagram fa-lg"
+                            aria-hidden="true"></i><span>Instagram</span></button></a>
+                <a href="" target="_blank"><button>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i><span>8007617737</span></button></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="home-footer.js"></script>
+<script src="js_members.js"></script>
+<script src="csi.min.js"></script>
+
+</html>
