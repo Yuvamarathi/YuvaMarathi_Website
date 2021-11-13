@@ -5,6 +5,7 @@
 html{
     font-size: 10px;
     scroll-behavior: smooth;
+    
 }
 
 
@@ -37,8 +38,6 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    /* margin: 2vw; */
-    /* font-size: 	1.1875rem; */
     font-size: 	1.8rem;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -46,15 +45,16 @@ nav a{
 }
 
 .nav_btn{
-    /* width: 100px; */
-    /* border-bottom: 4px solid black;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px; */
-    margin: 4vh;
+    /* margin: 4vh; */
+    margin:1.7vh 1.7vh 1.7vh 5.8vh;
     padding-bottom: 1vh;
     padding-top: 1vh;
     background-color: transparent;
     border: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 	1.8rem;
+    font-family: 'Marmelad', sans-serif;
 
 }
 .active, .nav_btn:hover {
@@ -65,7 +65,6 @@ nav a{
     border-left: none;
     border-right: none;
   }
-
 
 .brochure button {
     display: flex;
@@ -78,7 +77,7 @@ nav a{
     margin-right: 13px;
     align-items: center;
     justify-content: center;
-    margin: 4vh;
+    margin: 2vh 2vh 2vh 5.8vh;
     padding: 5px;
 }
 
@@ -518,7 +517,12 @@ margin-bottom: 40px;
 .intouch_2{
     /* border:2px solid blue; */
 }
-
+.intouch_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    /* border: 2px solid black; */
+}
 .get_in_touch button{
     display: flex;
     align-items: center;
@@ -543,8 +547,9 @@ margin-bottom: 40px;
 }
 
 
+
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 10px;
 }
   /* Track */ 
 ::-webkit-scrollbar-track {
@@ -565,6 +570,13 @@ margin-bottom: 40px;
 @media (max-width:420px){
     html{
         font-size:42% ;
+    }
+    .navbar{
+        background-color: #f78f20;
+        position: sticky;
+        top: 0px;
+        z-index: 45;
+        /* border: 2px solid red; */
     }
     .nav_btn{
         margin: 0.8vh;
@@ -652,6 +664,10 @@ margin-bottom: 40px;
         height: 40px;
         margin-top: 90px;
         background-color: #000000b5;
+        
+    }
+    .show span{
+        color: white;
     }
     .flag{
         display: none;
@@ -664,6 +680,7 @@ margin-bottom: 40px;
         width: auto;
         align-items: center;
         justify-content: center;
+        /* border: 2px solid black; */
     }
     .follow-inner{
         flex-direction: row;
@@ -672,6 +689,7 @@ margin-bottom: 40px;
          width: 30px;
         height: 30px;
         margin: 3vw;
+        font-size: 2rem;
     }
     .follow-inner span{
         display: none;
@@ -683,8 +701,8 @@ margin-bottom: 40px;
     .follow-inner{
         align-items: center;
         justify-content: center;
-        width: 247px;
-        height: 30px;
+        width: 295px;
+        height: 35px;
         margin: 3vh;
         /* height: 24px; */
         background-color: black;
@@ -773,6 +791,24 @@ border-radius: 10px;
         margin-left: 0;
         width: 245px;
         height: 148px;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+      /* Track */ 
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 0px;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(31, 30, 30); 
+        border-radius: 1px;
+    }
+      
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #383838; 
     }
    
 }
