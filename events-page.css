@@ -92,11 +92,8 @@ margin: 60px;
     line-height: 19px;
 }
 .event-card a:hover{
-    box-shadow: 1px 1px 13px black;
+    text-decoration: underline;
 }
-
-
-
 
 .bottom-btn {
     display: flex;

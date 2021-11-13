@@ -67,9 +67,10 @@ body {
 }
 
 .photo img {
-    border-radius: 1000px; 
+    border-radius: 50%; 
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Image h2 {
