@@ -68,6 +68,10 @@ select {
   align-items: center;
   gap: 2vh;
 }
+.faculty-head a{
+  color: black;
+  text-align: center;
+}
 .faculty-photo-container {
   height: 22vh;
   min-height: 80%;
@@ -123,6 +127,9 @@ line-height: 29px;
   gap: 1vh;
   align-items: center;
   justify-content: center;
+}
+.heads-info-container a{
+  color: black;
 }
 .heads-photo-container {
   height: 20vh;
