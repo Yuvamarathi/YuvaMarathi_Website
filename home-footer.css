@@ -9,6 +9,7 @@ html{
 }
 
 
+
 /* Container that will hold every class of home */
 .home{
     background: url('Images/background\ 3.png');
@@ -32,7 +33,13 @@ nav{
 nav li{
     float: left;
     list-style-type: none;
+
 }
+/* .nav-li:hover{
+    cursor: pointer;
+
+} */
+
 nav ul{
     overflow: auto;
 }
@@ -59,11 +66,12 @@ nav a{
 }
 .active, .nav_btn:hover {
     border-bottom: 3px solid #FF5A00;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    /* border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; */
     border-top: none;
     border-left: none;
     border-right: none;
+    cursor: pointer;
   }
 
 .brochure button {
@@ -317,6 +325,7 @@ nav a{
 }
 .follow button:hover{
     box-shadow: 2px 2px 10px black;
+    cursor: pointer;
 }
 .follow i{
     padding-right: 2.5vh;
@@ -327,6 +336,10 @@ nav a{
     flex-direction: column;
     /* border: 2px solid black; */
     margin-left: 4vw;
+}
+.follow-inner a{
+    /* border: 2px solid; */
+    max-width: 50%;
 }
 .flag{
     display: flex;
@@ -419,9 +432,12 @@ nav a{
     text-align: left;
     padding-left: 2vw;
 }
+
 .follow-foot button:hover{
     box-shadow: 2px 2px 10px rgb(255, 255, 255);
+    cursor: pointer;
 }
+
 .follow-foot i{
     padding-right: 2.5vh;
 }
@@ -455,6 +471,7 @@ background-color: black;
 
 .adv_board button:hover{
     box-shadow: 2px 2px 10px black;
+    cursor: pointer;
 }
 
 
@@ -547,6 +564,12 @@ margin-bottom: 40px;
 }
 .get_in_touch button:hover{
     box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+.select :hover{
+    
+    cursor: pointer;
+
 }
 
 
