@@ -187,13 +187,13 @@ height: 367px;
         margin-bottom: 80px;
     }
     .title_domain{
-        text-align: left;
         margin: 0;
         text-align: left;
         padding-left: 6vh;
         text-align: center;
         font-size: 30px;
         margin-bottom: 80px;
+        text-align: left;
     }
     .domain-inner-box-1{
         flex-direction: column;
