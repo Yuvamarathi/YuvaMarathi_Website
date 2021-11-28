@@ -33,9 +33,9 @@ const info_one =    //done
 //2019-2020
 const info_two =    //Remaining
     [
-        { "Name": "Varad Abhyankar", "Subname": "Secretary", "Image": "Images\\Board1920\\Varad Abhyankar_Secretary.jpg", "link_profile": "https://www.linkedin.com/in/varad-abhyankar-a2b2851b2/" },
-        { "Name": "Shravani Shinde", "Subname": "Vice President", "Image": "Images\\Board1920\\Shravani Shinde Vice President.jpg", "link_profile": "" },
         { "Name": "Tanuj Warpade", "Subname": "Chairperson", "Image": "Images\\Board1920\\Tanuj Warpade _ Chairperson.jpg", "link_profile": "" },
+        { "Name": "Shravani Shinde", "Subname": "Vice President", "Image": "Images\\Board1920\\Shravani Shinde Vice President.jpg", "link_profile": "" },
+        { "Name": "Varad Abhyankar", "Subname": "Secretary", "Image": "Images\\Board1920\\Varad Abhyankar_Secretary.jpg", "link_profile": "https://www.linkedin.com/in/varad-abhyankar-a2b2851b2/" },
         { "Name": "Abhishek Patil", "Subname": "Vice Chairperson Secretary", "Image": "Images\\Board1920\\Abhishek Patil_Vice Chairperson.jpg", "link_profile": "https://www.linkedin.com/in/abhishek-patil-27055b152/" },
 
         { "Name": "Manjiri Dighade", "Subname": "Marketing head", "Image": "Images\\Board1920\\Manjiri Dighade_ Marketing head.JPG", "link_profile": "https://www.linkedin.com/in/manjiri-dighade-743095144/" },
