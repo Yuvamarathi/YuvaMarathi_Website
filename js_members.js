@@ -10,8 +10,8 @@ const info_zero =   //done
         { "Name": "Vedant Karale", "Subname": "PR and Drama Head", "Image": "Images/Board2122/Vedant Karale_PR and Drama Head.jpg", "link_profile": "https://www.linkedin.com/in/vedant-karale/" },
         { "Name": "Krantdarshi Mirajkar", "Subname": "Editorial Head", "Image": "Images/Board2122/Krantdarshi Mirajkar_Editorial head.jpg", "link_profile": "https://www.linkedin.com/in/krantdarshi-mirajkar-743ab31b4/" },
         { "Name": "Janhavi Bhosale", "Subname": "Dance Head", "Image": "Images/Board2122/Janhavi Bhosale _ Dance head.jpg", "link_profile": "https://www.linkedin.com/in/janhavi-bhosale-2b32701a6/" },
-        { "Name": "Anushka Pawar", "Subname": "Music Head", "Image": "Images/Board2122/Anushka Pawar _ Music Head.jpg", "link_profile": "https://www.linkedin.com/feed/" }
-        //{ "Name": "Piyush Waghirkar", "Subname": "Finance Head", "Image": "Images/Board2122/Piyush Waghirkar Finance Head.jpg" },
+        { "Name": "Anushka Pawar", "Subname": "Music Head", "Image": "Images/Board2122/Anushka Pawar _ Music Head.jpg", "link_profile": "https://www.linkedin.com/feed/" },
+        { "Name": "Piyush Waghirkar", "Subname": "Finance Head", "Image": "Images/Board2122/Piyush Waghirkar Finance Head.jpg" }
     ];
 
 //2020-2021
