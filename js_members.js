@@ -1,5 +1,7 @@
 //Board members
+//Merge conflict
 //2021-2022
+
 const info_zero =   //done
     [
         { "Name": "Mrunmayi Mane", "Subname": "Events Head", "Image": "Images/Board2122/Mrunmayi Mane_Events Head (2).jpeg", "link_profile": "https://www.linkedin.com/in/mrunmayi-mane-45bba720b/" },
