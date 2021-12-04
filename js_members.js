@@ -34,7 +34,7 @@ const info_one =    //done
 const info_two =    //Remaining
     [
         { "Name": "Tanuj Warpade", "Subname": "Chairperson", "Image": "Images\\Board1920\\Tanuj Warpade _ Chairperson.jpg", "link_profile": "" },
-        { "Name": "Shravani Shinde", "Subname": "Vice President", "Image": "Images\\Board1920\\Shravani Shinde Vice President.jpg", "link_profile": "" },
+        { "Name": "Shravani Shinde", "Subname": "Vice Chairperson", "Image": "Images\\Board1920\\Shravani Shinde Vice President.jpg", "link_profile": "" },
         { "Name": "Varad Abhyankar", "Subname": "Secretary", "Image": "Images\\Board1920\\Varad Abhyankar_Secretary.jpg", "link_profile": "https://www.linkedin.com/in/varad-abhyankar-a2b2851b2/" },
         { "Name": "Abhishek Patil", "Subname": "Vice Chairperson Secretary", "Image": "Images\\Board1920\\Abhishek Patil_Vice Chairperson.jpg", "link_profile": "https://www.linkedin.com/in/abhishek-patil-27055b152/" },
 
@@ -65,8 +65,8 @@ const info_three =  //done
 //2017-2018
 const info_four =   //done
     [
-        { "Name": "Indrajeet Kenjale", "Subname": "President", "Image": "Images\\Board1718\\IndrajeetKenjale.JPG", "link_profile": "https://www.linkedin.com/in/indrajeet-kenjale-7ba347109/" },
-        { "Name": "Priyanka Dani", "Subname": "Vice President, Events Head", "Image": "Images\\Board1718\\PriyankaDani.png", "link_profile": "https://www.linkedin.com/in/priyankadani/" },
+        { "Name": "Indrajeet Kenjale", "Subname": "Chairperson", "Image": "Images\\Board1718\\IndrajeetKenjale.JPG", "link_profile": "https://www.linkedin.com/in/indrajeet-kenjale-7ba347109/" },
+        { "Name": "Priyanka Dani", "Subname": "Vice Chairperson, Events Head", "Image": "Images\\Board1718\\PriyankaDani.png", "link_profile": "https://www.linkedin.com/in/priyankadani/" },
         { "Name": "Aboli Vartak", "Subname": "Secretary", "Image": "Images\\Board1718\\Aboli Vartak.jfif", "link_profile": "https://www.linkedin.com/in/aboli-vartak-16253a143/" },
         { "Name": "Saurabh Zaware", "Subname": "Treasurer", "Image": "Images\\Board1718\\Saurabh Zaware.jfif", "link_profile": "https://www.linkedin.com/in/saurabh-zaware/" },
         { "Name": "Ojaswi Sumbh", "Subname": "PR Head", "Image": "Images\\Board1718\\Ojaswi Sumbh_PR Head .jpg", "link_profile": "https://www.linkedin.com/in/ojaswi-sumbh/" },
