@@ -2,7 +2,21 @@
 //Merge conflict
 //2021-2022
 
+
 const info_zero =   //done
+    [
+        { "Name": "Gayatri Kalyani", "Subname": "Chairperson", "Image": "Images/Board2223/Gayatri kalyani profile1.jpg", "link_profile": "https://www.linkedin.com/in/gayatri-kalyani-397911217/" },
+        { "Name": "Tanmay Deshpande", "Subname": "Vice Chairperson", "Image": "Images/Board2223/Tanmay.jpeg","link_profile": "https://www.linkedin.com/in/tanmay-deshpande-49720520a/" },
+        { "Name": "Mandar Kulkarni", "Subname": "Secretary", "Image": "Images/Board2223/mandar kulkarni.jpeg", "link_profile": "https://www.linkedin.com/in/mandar-kulkarni-b4317b211/" },
+        { "Name": "Shreya Markhedkar", "Subname": "Co-Secretary", "Image": "Images/Board2223/Shreya Markhedkar.jpeg", "link_profile": "https://www.linkedin.com/in/shreya-markhedkar-2299421b7/" },
+        { "Name": "Madhav Patil", "Subname": "Design Head", "Image": "Images/Board2223/Madhav Patil.jpg", "link_profile": "https://www.linkedin.com/in/madhav-patil-102031219/" },
+        { "Name": "Himanshu Shah", "Subname": "Editorial Head", "Image": "Images/Board2223/Himanshu Shah.jpeg", "link_profile": "https://www.linkedin.com/in/himanshu-shah-356421198" },
+        { "Name": "Sharv Patil", "Subname": "Publicity Head", "Image": "Images/Board2223/Sharv.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
+        { "Name": "Atharva Parkale", "Subname": "Technical Head", "Image": "Images/Board2223/AtharvaP.jpg", "link_profile": "https://www.linkedin.com/in/atharvaparkale/" },
+        { "Name": "Atharva Yawalkar", "Subname": "Finance Head", "Image": "Images/Board2223/Atharva Yawalkar.jpeg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
+        { "Name": "Pranav Arage", "Subname": "Creative Head", "Image": "Images/Board2223/PranavArage.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" }
+    ];
+const info_one =   //done
     [
         { "Name": "Mrunmayi Mane", "Subname": "Events Head", "Image": "Images/Board2122/Mrunmayi Mane_Events Head (2).jpeg", "link_profile": "https://www.linkedin.com/in/mrunmayi-mane-45bba720b/" },
         { "Name": "Anurag Gumaste", "Subname": "Operations Head", "Image": "Images/Board2122/Anurag Gumaste _ Operations Head.jpg", "link_profile": "https://www.linkedin.com/in/anurag-gumaste-528372219/" },
@@ -18,7 +32,7 @@ const info_zero =   //done
     ];
 
 //2020-2021
-const info_one =    //done
+const info_two =    //done
     [
         { "Name": "Rucha Jagtap", "Subname": "Chairperson", "Image": "Images\\Board2021\\Rucha Jagtap chairperson.jpg", "link_profile": "https://www.linkedin.com/in/rucha-jagtap-4b478a1a8/" },
         { "Name": "Atharva Wagh", "Subname": "Vice Chairperson", "Image": "Images\\Board2021\\Atharva Wagh - Vice chairperson.jpg", "link_profile": "https://www.linkedin.com/in/waghatharva/" },
@@ -34,7 +48,7 @@ const info_one =    //done
     ];
 
 //2019-2020
-const info_two =    //Remaining
+const info_three =    //Remaining
     [
         { "Name": "Tanuj Warpade", "Subname": "Chairperson", "Image": "Images\\Board1920\\Tanuj Warpade _ Chairperson.jpg", "link_profile": "" },
         { "Name": "Shravani Shinde", "Subname": "Vice Chairperson", "Image": "Images\\Board1920\\Shravani Shinde Vice President.jpg", "link_profile": "" },
@@ -51,7 +65,7 @@ const info_two =    //Remaining
     ];
 
 //2018-2019
-const info_three =  //done
+const info_four =  //done
     [
         { "Name": "Tukaram Jagtap", "Subname": "Chairperson", "Image": "Images\\Board1819\\Tukaram Jagtap.jfif", "link_profile": "https://www.linkedin.com/in/jagtap-tukaram-b05685188/" },
         { "Name": "Shalaka Mahurkar", "Subname": "Vice Chairperson", "Image": "Images\\Board1819\\Shalaka Shashank Mahurkar_Vice President.jpg", "link_profile": "https://www.linkedin.com/in/shalaka-shashank-mahurkar-520735155/" },
@@ -66,7 +80,7 @@ const info_three =  //done
     ];
 
 //2017-2018
-const info_four =   //done
+const info_five =   //done
     [
         { "Name": "Indrajeet Kenjale", "Subname": "Chairperson", "Image": "Images\\Board1718\\IndrajeetKenjale.JPG", "link_profile": "https://www.linkedin.com/in/indrajeet-kenjale-7ba347109/" },
         { "Name": "Priyanka Dani", "Subname": "Vice Chairperson, Events Head", "Image": "Images\\Board1718\\PriyankaDani.png", "link_profile": "https://www.linkedin.com/in/priyankadani/" },
@@ -161,20 +175,23 @@ window.onload = function () {
 function selector() {
     var a = document.getElementById("year").value;
 
-    if (a == "21_22") {
+    if (a == "22_23") {
         document.getElementById('selected-board').innerHTML = template(info_zero);
     }
-    else if (a == "20_21") {
+    else if (a == "21_22") {
         document.getElementById('selected-board').innerHTML = template(info_one);
     }
-    else if (a == "19_20") {
+    else if (a == "20_21") {
         document.getElementById('selected-board').innerHTML = template(info_two);
     }
-    else if (a == "18_19") {
+    else if (a == "19_20") {
         document.getElementById('selected-board').innerHTML = template(info_three);
     }
-    else if (a == "17_18") {
+    else if (a == "18_19") {
         document.getElementById('selected-board').innerHTML = template(info_four);
+    }
+    else if (a == "17_18") {
+        document.getElementById('selected-board').innerHTML = template(info_five);
     }
     else {
         document.getElementById("selected-board").innerHTML = " AN ERROR HAS OCCURED ";
