@@ -133,6 +133,7 @@ line-height: 29px;
 }
 .heads-photo-container {
   height: 20vh;
+  width: 20vh;
   min-height: 40%;
 }
 .club-head-image {
@@ -198,6 +199,7 @@ line-height: 36px;
   }
   .heads-photo-container {
     height: 14vh;
+    width: 14vh;
     min-height: 50%;
   }
   select {
@@ -225,6 +227,7 @@ line-height: 36px;
   }
   .heads-photo-container {
     height: 12vh;
+    width: 12vh;
     min-height: 50%;
   }
   select {
