@@ -79,17 +79,18 @@ class Carousel {
   }
 }
 
-const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+// Remove comments to activate carousel  
 
-exampleCarousel.setControls();
-// exampleCarousel.setNav();
-exampleCarousel.useControls();
-const galleryControlsNext = document.querySelector('.gallery-controls-next');
+// const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 
-function automate(){
-  galleryControlsNext.click();
-}
-setInterval(automate,4000);
+// exampleCarousel.setControls();
+// exampleCarousel.useControls();
+// const galleryControlsNext = document.querySelector('.gallery-controls-next');
+
+// function automate(){
+//   galleryControlsNext.click();
+// }
+// setInterval(automate,4000);
 
 //Navbar
 
