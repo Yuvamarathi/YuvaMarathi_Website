@@ -81,16 +81,16 @@ class Carousel {
 
 // Remove comments to activate carousel  
 
-// const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 
-// exampleCarousel.setControls();
-// exampleCarousel.useControls();
-// const galleryControlsNext = document.querySelector('.gallery-controls-next');
+exampleCarousel.setControls();
+exampleCarousel.useControls();
+const galleryControlsNext = document.querySelector('.gallery-controls-next');
 
-// function automate(){
-//   galleryControlsNext.click();
-// }
-// setInterval(automate,4000);
+function automate(){
+  galleryControlsNext.click();
+}
+setInterval(automate,4000);
 
 //Navbar
 
