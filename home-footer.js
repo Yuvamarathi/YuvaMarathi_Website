@@ -120,6 +120,7 @@ function change() {
         c.getElementsByTagName("span")[2].style.color = 'white';
         c.getElementsByTagName("span")[3].style.color = 'white';
         c.getElementsByTagName("span")[4].style.color = 'white';
+        c.getElementsByTagName("span")[5].style.color = 'white';
         d.style.color='white';
         z.style.display='block';
         z.style.color='black';
@@ -134,6 +135,7 @@ function change() {
         c.getElementsByTagName("span")[2].style.color = 'black';
         c.getElementsByTagName("span")[3].style.color = 'black';
         c.getElementsByTagName("span")[4].style.color = 'black';
+        c.getElementsByTagName("span")[5].style.color = 'black';
         d.style.color='black';
         z.style.display='block'
         l.style.backgroundColor='black';
