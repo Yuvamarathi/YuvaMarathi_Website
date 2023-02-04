@@ -3,6 +3,7 @@ const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
 
+// CAROUSEL JS
 class Carousel {
   constructor(container, items, controls) {
     this.carouselContainer = container;
