@@ -5,17 +5,17 @@
 const info_minusone =   //done
     [
         { "Name": "Sharv Patil", "Subname": "Chairperson", "Image": "Images/Board2324/Sharv Patil.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
-        { "Name": "Disha Shekle", "Subname": "President", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
-        { "Name": "Om Potdar", "Subname": "Vice Chairperson", "Image": "Images/Board2324/OM POTDAR.jpeg","link_profile": "https://www.linkedin.com/in/tanmay-deshpande-49720520a/" },
+        { "Name": "Disha Shekle", "Subname": "President", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/disha-shelke-a8505b1b1/" },
+        { "Name": "Om Potdar", "Subname": "Vice Chairperson", "Image": "Images/Board2324/OM POTDAR.jpeg","link_profile": "" },
         { "Name": "Atharva Yawalkar", "Subname": "Secretary", "Image": "Images/Board2324/Atharva_Yawalkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" }, 
-        { "Name": "Prathamesh Bhangale", "Subname": "Design Head", "Image": "Images/Board2324/Prathamesh_Bhangale.jpg", "link_profile": "https://www.linkedin.com/in/madhav-patil-102031219/" },
-        { "Name": "Mayuresh Parale", "Subname": "Editorial Head", "Image": "Images/Board2324/Mayuresh Parale.jpg", "link_profile": "https://www.linkedin.com/in/himanshu-shah-356421198" },
-        { "Name": "Ayush Katkurwar", "Subname": "Publicity Head", "Image": "Images/Board2324/Ayush Katkurwar.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
-        { "Name": "Atharva Navghane", "Subname": "Technical Head", "Image": "Images/Board2324/Atharva Pravin Navghane.jpg", "link_profile": "https://www.linkedin.com/in/atharvaparkale/" },
-        { "Name": "Anish Adkar", "Subname": "Finance Head", "Image": "Images/Board2324/Anish Adkar.jpeg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
-        { "Name": "Aastha Dugad", "Subname": "Co Secretary", "Image": "Images/Board2324/Astha Dugad.jpg", "link_profile": "https://www.linkedin.com/in/shreya-markhedkar-2299421b7/" },
-        { "Name": "Ameya Gokhale", "Subname": "Drama Head", "Image": "Images/Board2324/Ameya_Gokhale_.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" },
-        { "Name": "Yashodhan Prabhughate", "Subname": "Creative Head", "Image": "Images/Board2324/Yashodhan Prabhughate.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" }
+        { "Name": "Prathamesh Bhangale", "Subname": "Design Head", "Image": "Images/Board2324/Prathamesh_Bhangale.jpg", "link_profile": "" },
+        { "Name": "Mayuresh Parale", "Subname": "Editorial Head", "Image": "Images/Board2324/Mayuresh Parale.jpg", "link_profile": "" },
+        { "Name": "Ayush Katkurwar", "Subname": "Publicity Head", "Image": "Images/Board2324/Ayush Katkurwar.jpg", "link_profile": "https://www.linkedin.com/in/ayush-katkurwar-331527217" },
+        { "Name": "Atharva Navghane", "Subname": "Technical Head", "Image": "Images/Board2324/Atharva Pravin Navghane.jpg", "link_profile": "" },
+        { "Name": "Anish Adkar", "Subname": "Finance Head", "Image": "Images/Board2324/Anish Adkar.jpeg", "link_profile": "https://www.linkedin.com/in/anish-adkar-49541825a" },
+        { "Name": "Aastha Dugad", "Subname": "Co Secretary", "Image": "Images/Board2324/Astha Dugad.jpg", "link_profile": "" },
+        { "Name": "Ameya Gokhale", "Subname": "Drama Head", "Image": "Images/Board2324/Ameya_Gokhale_.jpg", "link_profile": "" },
+        { "Name": "Yashodhan Prabhughate", "Subname": "Creative Head", "Image": "Images/Board2324/Yashodhan Prabhughate.jpg", "link_profile": "" }
         
     ];
 
