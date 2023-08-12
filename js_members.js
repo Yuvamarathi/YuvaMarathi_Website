@@ -1,8 +1,26 @@
 //Board members
 //Merge conflict
-//2021-2022
+
+//2023-2024
+const info_minusone =   //done
+    [
+        { "Name": "Sharv Patil", "Subname": "Chairperson", "Image": "Images/Board2324/Sharv Patil.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
+        { "Name": "Disha Shekle", "Subname": "President", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
+        { "Name": "Om Potdar", "Subname": "Vice Chairperson", "Image": "Images/Board2324/OM POTDAR.jpeg","link_profile": "https://www.linkedin.com/in/tanmay-deshpande-49720520a/" },
+        { "Name": "Atharva Yawalkar", "Subname": "Secretary", "Image": "Images/Board2324/Atharva_Yawalkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" }, 
+        { "Name": "Prathamesh Bhangale", "Subname": "Design Head", "Image": "Images/Board2324/Prathamesh_Bhangale.jpg", "link_profile": "https://www.linkedin.com/in/madhav-patil-102031219/" },
+        { "Name": "Mayuresh Parale", "Subname": "Editorial Head", "Image": "Images/Board2324/Mayuresh Parale.jpg", "link_profile": "https://www.linkedin.com/in/himanshu-shah-356421198" },
+        { "Name": "Ayush Katkurwar", "Subname": "Publicity Head", "Image": "Images/Board2324/Ayush Katkurwar.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
+        { "Name": "Atharva Navghane", "Subname": "Technical Head", "Image": "Images/Board2324/Atharva Pravin Navghane.jpg", "link_profile": "https://www.linkedin.com/in/atharvaparkale/" },
+        { "Name": "Anish Adkar", "Subname": "Finance Head", "Image": "Images/Board2324/Anish Adkar.jpeg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
+        { "Name": "Aastha Dugad", "Subname": "Co Secretary", "Image": "Images/Board2324/Astha Dugad.jpg", "link_profile": "https://www.linkedin.com/in/shreya-markhedkar-2299421b7/" },
+        { "Name": "Ameya Gokhale", "Subname": "Drama Head", "Image": "Images/Board2324/Ameya_Gokhale_.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" },
+        { "Name": "Yashodhan Prabhughate", "Subname": "Creative Head", "Image": "Images/Board2324/Yashodhan Prabhughate.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" }
+        
+    ];
 
 
+//2022-2023
 const info_zero =   //done
     [
         { "Name": "Gayatri Kalyani", "Subname": "Chairperson", "Image": "Images/Board2223/Gayatri kalyani profile1.jpg", "link_profile": "https://www.linkedin.com/in/gayatri-kalyani-397911217/" },
@@ -16,6 +34,9 @@ const info_zero =   //done
         { "Name": "Atharva Yawalkar", "Subname": "Finance Head", "Image": "Images/Board2223/Atharva Yawalkar.jpeg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" },
         { "Name": "Pranav Arage", "Subname": "Creative Head", "Image": "Images/Board2223/PranavArage.jpg", "link_profile": "https://www.linkedin.com/in/pranav-arage-he-him-b521221ab/" }
     ];
+
+//2021-2022
+
 const info_one =   //done
     [
         { "Name": "Mrunmayi Mane", "Subname": "Events Head", "Image": "Images/Board2122/Mrunmayi Mane_Events Head (2).jpeg", "link_profile": "https://www.linkedin.com/in/mrunmayi-mane-45bba720b/" },
@@ -175,7 +196,10 @@ window.onload = function () {
 function selector() {
     var a = document.getElementById("year").value;
 
-    if (a == "22_23") {
+    if(a == "23_24") {
+        document.getElementById('selected-board').innerHTML = template(info_minusone);
+    }
+    else if (a == "22_23") {
         document.getElementById('selected-board').innerHTML = template(info_zero);
     }
     else if (a == "21_22") {
