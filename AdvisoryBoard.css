@@ -1,0 +1,148 @@
+/* CSS STYLES */
+
+
+body {
+    margin: 0px;
+}
+
+.Container {
+    margin: 5vh 3vw;
+}
+
+
+.Top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FF5A00;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+}
+.Top a{
+    color: black;
+    margin-left: 1.5vw;
+    font-size: 30px;
+}
+
+.Text h1 {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: 'Marmelad', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.Heading {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: 'Marmelad', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.Text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: left;
+}
+
+.Board {
+    margin-top: 5vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Image {
+    /* padding: 10px;
+    width: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+
+}
+.Image a{
+    color: black;
+    text-decoration: none;
+}
+
+.photo {
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 146px;
+}
+
+.photo img {
+    /* border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    object-fit: cover; */
+    border-radius: 50%; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Image h2 {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+
+}
+
+
+/* Mobile View */
+@media only screen and (max-width: 500px) {
+
+    .Text h1 {
+        margin-top: 10vh;
+        margin-bottom: 7.5vh;
+        font-size: 35px;
+    }
+    .Top a{
+        font-size: 22px;
+    }
+
+    .Text p {
+        font-size: 16px;
+    }
+
+    .Heading {
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+
+    .Image h2 {
+        font-size: 18px;
+    }
+
+    .Image {
+        width: 40%;
+    }
+
+    .Image img {
+        width: 115px;
+        height: 115px;
+    }
+}
+
+
+
+/* Extra Views */

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+/* html,
+body {
+    font-family: "Marmelad", sans-serif;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    ;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.blogtitle {
+    margin-top: 5%;
+    margin-left: 6%;
+    z-index: 44;
+    position: fixed;
+    font-size: 35px;
+    font-family: "Marmelad";
+
+}
+.blog-content{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.blog-container {
+    /* box-sizing: border-box; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 100vh;
+    flex-direction: column;
+}
+.blog-title{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+}
+.blog-title h1{
+    font-size: 32px;
+    margin-left: 8vh;
+    font-weight: 500;
+    /* border: 2px solid black; */
+}
+
+.blog-carousel-container {
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    background-color: #ffffff;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+.blog-card {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 247px;
+    border: 1px solid white;
+    background: white;
+    transition: transform 0.2s;
+    /* box-shadow: 7px 8px 15px black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 70px;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+
+.blog-card-img {
+    display: none;
+}
+
+.blog-card-img1 {
+    height: 189px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    object-fit: cover;
+    height: 178px;
+    margin-top: 2vh;
+    width: 80%;
+}
+.blog-card-img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.blog-card-title {
+    /* padding: 0px 0px 0px 20px; */
+    margin-top: 10px;
+    font-weight: 550;
+    font-family: "Marmelad";
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000ba;
+    
+}
+
+.blog-card-text {
+    /* padding: 0px 10px 0px 20px; */
+    /* border: 2px solid black; */
+    width: 85%;
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.blog-card-mover-btn {
+    /* margin-top: -25%; */
+    /* position: absolute; */
+    /* margin-left: 10px; */
+    /* margin-right: -100px; */
+}
+
+.blog-btn {
+    font-size: 40px;
+    color: #F78F20;
+    border: 3px, #ffffff47;
+    border-radius: 400px;
+    /* padding-left: 3px; */
+    /* padding-right: 3px; */
+    background: rgb(255, 255, 255);
+    transition: 0.05s;
+    /* margin-left: 70px; */
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.blog-prev-cont {
+    /* position: fixed; */
+    /* top:100%; */
+    /* left: 2vw; */
+    /* border: 2px solid black; */
+    /* margin-right: 66% */
+}
+
+.blog-next-cont {
+    /* position: fixed; */
+    /* top:100%; */
+    /* left: 85vw; */
+    /* border: 2px solid black; */
+    /* margin-left: 83%; */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media   (max-width:575px){
+    .blog-container{
+        height: 80vh;
+    }
+    .blog-btn{
+        height: 45px;
+        width: 45px;
+    }
+    .blog-card{
+        height: 365px;
+        width: 223px;
+    }
+    .blog-card-img1{
+        object-fit: contain;
+    }
+    .blog-card-img1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog-title h1{
+        font-family: Marmelad;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    margin-left: 5.8vh;
+    margin-top: 0;
+    }
+    .blog-carousel-container{
+        height: 80%;
+    }
+    .blog-card-text{
+        text-align: center;
+    }
+    
+}
