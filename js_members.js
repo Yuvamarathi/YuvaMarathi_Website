@@ -2,20 +2,7 @@
 //Merge conflict
 
 //2024-2025
-const info_minustwo =   //done
-    [
-        { "Name": "Mayuresh", "Subname": "Chairperson", "Image": "Images/Board2324/Sharv Patil.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
-        { "Name": "Aastha", "Subname": "Secretary", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/disha-shelke-a8505b1b1/" },
-        { "Name": "Manas", "Subname": "Vice Chairperson", "Image": "Images/Board2324/OM POTDAR.jpeg","link_profile": "" },
-        { "Name": "Soham", "Subname": "Co-Secretary", "Image": "Images/Board2324/Atharva_Yawalkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" }, 
-        { "Name": "Narkar", "Subname": "Design Head", "Image": "Images/Board2324/Prathamesh_Bhangale.jpg", "link_profile": "" },
-        { "Name": "Niranjan", "Subname": "Editorial Head", "Image": "Images/Board2324/Mayuresh Parale.jpg", "link_profile": "" },
-        { "Name": "Anish", "Subname": "Publicity Head", "Image": "Images/Board2324/Ayush Katkurwar.jpg", "link_profile": "https://www.linkedin.com/in/ayush-katkurwar-331527217" },
-        { "Name": "Anchal", "Subname": "Events Head", "Image": "Images/Board2324/Atharva Pravin Navghane.jpg", "link_profile": "" },
-        { "Name": "Ishita", "Subname": "Finance Head", "Image": "Images/Board2324/Anish Adkar.jpeg", "link_profile": "https://www.linkedin.com/in/anish-adkar-49541825a" },
-        { "Name": "Angiras", "Subname": "Creative Head", "Image": "Images/Board2324/Yashodhan Prabhughate.jpg", "link_profile": "" }
-        
-    ];
+
 //2023-2024
 const info_minusone =   //done
     [
