@@ -211,7 +211,10 @@ window.onload = function () {
 function selector() {
     var a = document.getElementById("year").value;
 
-    if(a == "23_24") {
+    if(a == "24_25") {
+        document.getElementById('selected-board').innerHTML = template(info_minustwo);
+    }
+    else if(a == "23_24") {
         document.getElementById('selected-board').innerHTML = template(info_minusone);
     }
     else if (a == "22_23") {
