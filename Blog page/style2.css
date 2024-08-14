@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+/* html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    margin: 0;
+    height: 100%;;
+} */
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.carousel-container {
+    position: absolute;
+    margin-left: px;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 455px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 653px;
+    width: 450px;
+    border: 1px solid white;
+    background: white;
+    transition: transform 0.2s;
+    box-shadow:  7px 8px 15px black;
+    margin-right: 10px;
+}
+.card-title{
+    padding: 0px 0px 0px 20px;
+    margin-top: 25px;
+    font-weight: 550;
+    font-size: 45px;
+    font-family: "Marmelad";
+}
+.card-img{
+    height: 329px;
+    width: 447px;
+}
+.card-img1{
+display: none;
+}
+.card-text{
+    align-items: center;
+    padding: 0px 10px 0px 20px;
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+.card-mover-btn{
+    position: absolute;
+    margin-top: -115%;
+    margin-left: 3%;
+    margin-right: 20%;
+}
+.btn{
+
+    font-size: 60px;
+    color: #F78F20;
+    border: 3px, #ffffff47;
+    border-radius: 400px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: rgb(255, 255, 255);
+    transition: 0.05s;
+    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+}
+.prev-cont{
+    margin-right: 40%;
+}
+.next-cont{
+    margin-left: 70%;
+}
+
+.blogtitle{
+    margin-top: 60%;
+    margin-left: 25%;
+font-size: 50px;
+position: fixed;
+font-family: "Marmelad";
+z-index: 1;
+
+}
+a:link {
+    text-decoration: none; 
+    all: unset;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+  } 
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
