@@ -263,6 +263,7 @@ function selector() {
         document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_one);
         
     } else if (a == "23_24") {
+
         document.getElementById('selected-board').innerHTML = template(info_minusone);
         document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
      
