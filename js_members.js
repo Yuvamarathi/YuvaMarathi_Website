@@ -6,7 +6,7 @@ const info_minutwo =   //done
     [
         { "Name": "Mayuresh", "Subname": "Chairperson", "Image": "Images/Board2425/Mayuresh.jpg", "link_profile": "https://www.linkedin.com/in/mayureshparale/" },
         { "Name": "Aastha Dugad", "Subname": "Secretary", "Image": "Images/Board2425/Aastha.png", "link_profile": "https://www.linkedin.com/in/aastha-dugad-399595282/" },
-        { "Name": "Soham Pande", "Subname": "Co-Secretary", "Image": "Images/Board2425/Soham.png","link_profile": "https://www.linkedin.com/in/soham-pande-759781250/" },
+        { "Name": "Soham Pande", "Subname": "Co-Secretary", "Image": "Images/Board2425/Soham.jpg","link_profile": "https://www.linkedin.com/in/soham-pande-759781250/" },
         { "Name": "Manas Kulkarni", "Subname": "Vice-Chairperson", "Image": "Images/Board2425/Manas.jpg", "link_profile": "https://www.linkedin.com/in/manas-kulkarni-198766279" }, 
         { "Name": "Atharva Narkar", "Subname": "Design Head", "Image": "Images/Board2425/Atharva Narkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-narkar-573b33259/" },
         { "Name": "Anish Joshi", "Subname": "Management Head", "Image": "Images/Board2425/Anish Joshi.jpg", "link_profile": "https://www.linkedin.com/in/anish-joshi-40ba8b274/" },
@@ -14,7 +14,7 @@ const info_minutwo =   //done
         { "Name": "Niranjan Thite", "Subname": "Editorial Head", "Image": "Images/Board2425/Niranjan.png", "link_profile": "https://www.linkedin.com/in/niranjan-thite-87668b252/" },
         { "Name": "Ishita Bakde", "Subname": "PR & Finanace Head", "Image": "Images/Board2425/Ishita Bakde.jpg", "link_profile": "https://www.linkedin.com/in/ishita-bakde-383345267/" },
         { "Name": "Chinmayee Chaudhary", "Subname": "Technical Head", "Image": "Images/Board2425/Chinmayee.jpg", "link_profile": "https://www.linkedin.com/in/chinmayee-chaudhary-792947257/" },
-        { "Name": "Angiras", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
+        { "Name": "Angiras Nazar", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
         
     ];
 
