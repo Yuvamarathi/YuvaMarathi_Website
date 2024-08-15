@@ -14,7 +14,7 @@ const info_minutwo =   //done
         { "Name": "Niranjan Thite", "Subname": "Editorial Head", "Image": "Images/Board2425/Niranjan.png", "link_profile": "https://www.linkedin.com/in/niranjan-thite-87668b252/" },
         { "Name": "Ishita Bakde", "Subname": "PR & Finanace Head", "Image": "Images/Board2425/Ishita Bakde.jpg", "link_profile": "https://www.linkedin.com/in/ishita-bakde-383345267/" },
         { "Name": "Chinmayee Chaudhary", "Subname": "Technical Head", "Image": "Images/Board2425/Chinmayee.jpg", "link_profile": "https://www.linkedin.com/in/chinmayee-chaudhary-792947257/" },
-        { "Name": "Angiras", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
+        { "Name": "Angiras Nazar", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
         
     ];
 
