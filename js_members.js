@@ -2,6 +2,22 @@
 //Merge conflict
 
 //2024-2025
+const info_minuthree =   //done
+    [
+        { "Name": "Anish Joshi", "Subname": "Chairperson", "Image": "Images/Board2526/anish joshi.jpg"},
+        { "Name": "Niranjan Thite", "Subname": "Secretary", "Image": "Images/Board2526/niranjan thite.jpg"},
+        { "Name": "Isha Gandhi", "Subname": "Co-Secretary", "Image": "Images/Board2526/isha gandhi.jpg"},
+        { "Name": "Arpit Wibhute", "Subname": "Vice-Chairperson", "Image": "Images/Board2526/arpit wibhute.jpg"},
+        { "Name": "Dwarakadhish Patil", "Subname": "Management Head", "Image": "Images/Board2526/dwarakadhish patil.jpg"}, 
+        { "Name": "Harsh Pai", "Subname": "Design Head", "Image": "Images/Board2526/harsh pai.jpg"},
+        { "Name": "Jiya Sawant", "Subname": "Creative Head", "Image": "Images/Board2526/jiya sawant.jpg"},
+        { "Name": "Kunal Bhosale", "Subname": "Marketing Head", "Image": "Images/Board2526/kunal bosale.jpg"},
+        { "Name": "Aditya Deshmukh", "Subname": "Editorial Head", "Image": "Images/Board2526/aditya deshmukh.jpg"},
+        { "Name": "Arya Parge", "Subname": "Finanace Head", "Image": "Images/Board2526/arya parge.jpg"}
+        
+        
+    ];
+//2024-2025
 const info_minutwo =   //done
     [
         { "Name": "Mayuresh", "Subname": "Chairperson", "Image": "Images/Board2425/Mayuresh.jpg", "link_profile": "https://www.linkedin.com/in/mayureshparale/" },
@@ -16,7 +32,7 @@ const info_minutwo =   //done
         { "Name": "Chinmayee Chaudhary", "Subname": "Technical Head", "Image": "Images/Board2425/Chinmayee.jpg", "link_profile": "https://www.linkedin.com/in/chinmayee-chaudhary-792947257/" },
         { "Name": "Angiras Nazar", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
         
-    ];
+    ];    
 
 //2023-2024
 const info_minusone =   //done
@@ -251,14 +267,18 @@ function faculty_template(array) {
 }
 
 window.onload = function () {
-    document.getElementById('selected-board').innerHTML = template(info_minustwo);
+    document.getElementById('selected-board').innerHTML = template(info_minusthree);
 }
 
 
 function selector() {
     var a = document.getElementById("year").value;
 
-    if (a == "24_25") {
+    if (a == "25_26") {
+        document.getElementById('selected-board').innerHTML = template(info_minuthree);
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_one);
+        
+    }else if (a == "24_25") {
         document.getElementById('selected-board').innerHTML = template(info_minutwo);
         document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_one);
         
