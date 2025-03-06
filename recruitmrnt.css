@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Marmelad', sans-serif;
+}
+h2{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+header {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: 63px;
+    background-color: #FF5A00;
+    z-index: 50;  
+}
+.events__header_{
+    display: flex;
+    align-items: center;
+}
+.events__header_ i{
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 1vw;
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+    /* width: 50%; */
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  .main_div_selected_people{
+      /* border: 2px solid black; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .selected_people{
+      width: 80%;
+      
+      /* border: 2px solid black; */
+  }
+  /* .selected_people input{
+      width: 70%;
+  } */
+  .selected_people table{
+      width:100%;
+  }
