@@ -1,10 +1,44 @@
 //Board members
 //Merge conflict
+
+//2024-2025
+const info_minuthree =   //done
+    [
+        { "Name": "Anish Joshi", "Subname": "Chairperson", "Image": "Images/Board2526/anish joshi.jpg"},
+        { "Name": "Niranjan Thite", "Subname": "Secretary", "Image": "Images/Board2526/niranjan thite.jpg"},
+        { "Name": "Isha Gandhi", "Subname": "Co-Secretary", "Image": "Images/Board2526/isha gandhi.jpg"},
+        { "Name": "Arpit Wibhute", "Subname": "Vice-Chairperson", "Image": "Images/Board2526/arpit wibhute.jpg"},
+        { "Name": "Dwarakadhish Patil", "Subname": "Management Head", "Image": "Images/Board2526/dwarakadhish patil.jpg"}, 
+        { "Name": "Harsh Pai", "Subname": "Design Head", "Image": "Images/Board2526/harsh pai.jpg"},
+        { "Name": "Jiya Sawant", "Subname": "Creative Head", "Image": "Images/Board2526/jiya sawant.jpg"},
+        { "Name": "Kunal Bhosale", "Subname": "Marketing Head", "Image": "Images/Board2526/kunal bosale.jpg"},
+        { "Name": "Aditya Deshmukh", "Subname": "Editorial Head", "Image": "Images/Board2526/aditya deshmukh.jpg"},
+        { "Name": "Arya Parge", "Subname": "Finanace Head", "Image": "Images/Board2526/arya parge.jpg"}
+        
+        
+    ];
+//2024-2025
+const info_minutwo =   //done
+    [
+        { "Name": "Mayuresh", "Subname": "Chairperson", "Image": "Images/Board2425/Mayuresh.jpg", "link_profile": "https://www.linkedin.com/in/mayureshparale/" },
+        { "Name": "Aastha Dugad", "Subname": "Secretary", "Image": "Images/Board2425/Aastha.png", "link_profile": "https://www.linkedin.com/in/aastha-dugad-399595282/" },
+        { "Name": "Soham Pande", "Subname": "Co-Secretary", "Image": "Images/Board2425/Soham.jpg","link_profile": "https://www.linkedin.com/in/soham-pande-759781250/" },
+        { "Name": "Manas Kulkarni", "Subname": "Vice-Chairperson", "Image": "Images/Board2425/Manas.jpg", "link_profile": "https://www.linkedin.com/in/manas-kulkarni-198766279" }, 
+        { "Name": "Atharva Narkar", "Subname": "Design Head", "Image": "Images/Board2425/Atharva Narkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-narkar-573b33259/" },
+        { "Name": "Anish Joshi", "Subname": "Management Head", "Image": "Images/Board2425/Anish Joshi.jpg", "link_profile": "https://www.linkedin.com/in/anish-joshi-40ba8b274/" },
+        { "Name": "Anchal Bhartiya", "Subname": "Events Head", "Image": "Images/Board2425/Anchal.jpg", "link_profile": "https://www.linkedin.com/in/anchal-bhartiya-118911249/" },
+        { "Name": "Niranjan Thite", "Subname": "Editorial Head", "Image": "Images/Board2425/Niranjan.png", "link_profile": "https://www.linkedin.com/in/niranjan-thite-87668b252/" },
+        { "Name": "Ishita Bakde", "Subname": "PR & Finanace Head", "Image": "Images/Board2425/Ishita Bakde.jpg", "link_profile": "https://www.linkedin.com/in/ishita-bakde-383345267/" },
+        { "Name": "Chinmayee Chaudhary", "Subname": "Technical Head", "Image": "Images/Board2425/Chinmayee.jpg", "link_profile": "https://www.linkedin.com/in/chinmayee-chaudhary-792947257/" },
+        { "Name": "Angiras Nazar", "Subname": "Creative Head", "Image": "Images/Board2425/Angiras.png", "link_profile": "https://www.linkedin.com/in/angiras-nazar-3b185b24a/" }
+        
+    ];    
+
 //2023-2024
 const info_minusone =   //done
     [
         { "Name": "Sharv Patil", "Subname": "Chairperson", "Image": "Images/Board2324/Sharv Patil.jpg", "link_profile": "https://www.linkedin.com/in/sharv-patil-95830a212" },
-        { "Name": "Disha Shekle", "Subname": "President", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/disha-shelke-a8505b1b1/" },
+        { "Name": "Disha Shelke", "Subname": "President", "Image": "Images/Board2324/Disha Shelke.jpg", "link_profile": "https://www.linkedin.com/in/disha-shelke-a8505b1b1/" },
         { "Name": "Om Potdar", "Subname": "Vice Chairperson", "Image": "Images/Board2324/OM POTDAR.jpeg","link_profile": "" },
         { "Name": "Atharva Yawalkar", "Subname": "Secretary", "Image": "Images/Board2324/Atharva_Yawalkar.jpg", "link_profile": "https://www.linkedin.com/in/atharva-yawalkar-025513200" }, 
         { "Name": "Prathamesh Bhangale", "Subname": "Design Head", "Image": "Images/Board2324/Prathamesh_Bhangale.jpg", "link_profile": "" },
@@ -115,6 +149,18 @@ const info_five =   //done
     ];
 
 
+const faculty_one = 
+    [
+        {"Name": "Dr. Sandeep Ahankari", "Subname": "Faculty Coordinator", "Image": "Images/Sandeep Sir.JPG", "link_profile": "" }
+    ];
+
+const faculty_two = 
+    [
+        {"Name": "Dr. Pundlik Bhagat", "Subname": "Faculty Coordinator", "Image": "Images/bhagat sir.png", "link_profile": "" }
+    ];
+
+
+
 data = [
     [
         {
@@ -159,6 +205,8 @@ data = [
 ]
 
 
+
+
 function template(array) {
     for (let i = 0; i < array.length; i++) {
         if (i == 0) {
@@ -186,38 +234,87 @@ function template(array) {
     }
     return code;
 }
+function faculty_template(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (i == 0) {
+            document.getElementsByClassName('faculty-detail').innerHTML = "";
+            code = ``;
+        }
+        var code = code +
+            `
+        <div class="faculty">
+            <div class="faculty-head">
+                <div class="faculty-photo-container">
+                    <a href="${array[i].link_profile}" target="_blank">
+                    <img
+                        class="faculty-photo"
+                        src="${array[i].Image}"
+                    />
+                    </a>
+
+                </div>      
+                    <div class="faculty-info-container">
+                    <a href="${array[i].link_profile}" target="_blank">
+                    <h3 class="faculty-name">${array[i].Name}</h3>
+                    <p class="faculty-subname" >${array[i].Subname}</p>
+                    </a>
+                </div>
+            </div>
+            `
+    
+    }
+    return code;
+}
 
 window.onload = function () {
-    document.getElementById('selected-board').innerHTML = template(info_zero);
+    document.getElementById('selected-board').innerHTML = template(info_minusthree);
 }
 
 
 function selector() {
     var a = document.getElementById("year").value;
 
-    if(a == "23_24") {
+    if (a == "25_26") {
+        document.getElementById('selected-board').innerHTML = template(info_minuthree);
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_one);
+        
+    }else if (a == "24_25") {
+        document.getElementById('selected-board').innerHTML = template(info_minutwo);
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_one);
+        
+    } else if (a == "23_24") {
+
         document.getElementById('selected-board').innerHTML = template(info_minusone);
-    }
-    else if (a == "22_23") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+     
+    } else if (a == "22_23") {
         document.getElementById('selected-board').innerHTML = template(info_zero);
-    }
-    else if (a == "21_22") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+      
+    } else if (a == "21_22") {
         document.getElementById('selected-board').innerHTML = template(info_one);
-    }
-    else if (a == "20_21") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+       
+    } else if (a == "20_21") {
         document.getElementById('selected-board').innerHTML = template(info_two);
-    }
-    else if (a == "19_20") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+       
+    } else if (a == "19_20") {
         document.getElementById('selected-board').innerHTML = template(info_three);
-    }
-    else if (a == "18_19") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+        
+    }else if (a == "18_19") {
         document.getElementById('selected-board').innerHTML = template(info_four);
-    }
-    else if (a == "17_18") {
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+        
+    } else if (a == "17_18") {
         document.getElementById('selected-board').innerHTML = template(info_five);
-    }
-    else {
-        document.getElementById("selected-board").innerHTML = " AN ERROR HAS OCCURED ";
+        document.getElementById('faculty-detail').innerHTML = faculty_template(faculty_two);
+        // Default behavior when none of the options match
+    } else{
+        document.getElementById("selected-board").innerHTML = "Error ";
     }
 }
+
+
 
