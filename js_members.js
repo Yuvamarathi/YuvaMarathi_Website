@@ -1,6 +1,5 @@
 //Board members
 //Merge conflict
-
 //2023-2024
 const info_minusone =   //done
     [
